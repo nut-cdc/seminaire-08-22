@@ -186,6 +186,10 @@ a:hover {
 	font-size: 1.125rem;
 }
 
+.cyan {
+	color:#0095db;
+}
+
 .ergypurcol {
 	color: #95C11F;
 }
@@ -775,11 +779,31 @@ input[type='checkbox'] {
 	margin-left: 0.5rem;
 }
 
+#registration p {
+	margin-right: 2rem;
+}
+
+#registration p.center {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 2rem;;
+}
+
 #registration {
 	background-image: url("../images/feuille-droite.png");
 	background-repeat: no-repeat;
 	background-size: 30%;
 	background-position-x: right;
+}
+
+#registration li {
+	margin: auto 1.5rem;
+}
+
+#registration .img-fluid.entry {
+	width: 80%;
+	display: block;
+	margin: 0.75rem auto;
 }
 
 /***********************/
@@ -831,18 +855,17 @@ input[type='checkbox'] {
 /*     Activités     */
 /**********************/
 
-#activites {
+/*#activites {
 	background-image: url("../images/feuille-gauche.png");
 	background-repeat: no-repeat;
 	background-size: 30%;
-}
+}*/
 
 /**********************/
 /*     Highlights     */
 /**********************/
 .cards-1 {
 	padding-top: 1rem;
-	padding-bottom: 4rem;
 	text-align: center;
 }
 
@@ -855,7 +878,7 @@ input[type='checkbox'] {
 .cards-1 .card-image {
 	position: relative;
 	width: /*11*/ 15rem;
-	height: /*11*/ 15rem;*/
+	height: /*11*/ 15rem;
 	width: 15rem;
 	margin-right: auto;
 	margin-bottom: 2rem;
@@ -959,7 +982,7 @@ img.logo {
 /********************/
 .cards-2 {
 	padding-top: 7.75rem;
-	padding-bottom: 3.25rem;
+	padding-bottom: 10rem;
 	text-align: center;
 }
 
@@ -1068,6 +1091,37 @@ img.logo {
 .cards-2 .fa-stack:hover .fa-stack-1x {
 	color: #00468e;
 }
+
+h3 {
+	color: #0095db;
+	margin-bottom: 1rem;
+}
+
+.keynote-time {
+	color:#00468e;
+	font-weight: 700;
+	font-size: 1.125rem;
+	line-height: 1.625rem;
+}
+
+.keynote-divider {
+	height: 1px;
+	margin-top: 2.25rem;
+	margin-bottom: 2.25rem;
+	border: none;
+	background-color: #b5bcc4;
+}
+
+/******************/
+/*     We     */
+/******************/
+
+#we {
+	background-image: url("../images/feuille-gauche.png");
+	background-repeat: no-repeat;
+	background-size: 25%;
+}
+
 
 /******************/
 /*     Footer     */
@@ -1292,6 +1346,10 @@ a:hover.back-to-top {
 		width: 40rem;
 		margin-right: auto;
 		margin-left: auto;
+	}
+
+	h4 {
+		margin-top: 3rem;
 	}
 	/* end of general styles */
 
