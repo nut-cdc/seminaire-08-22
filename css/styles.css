@@ -801,9 +801,10 @@ input[type='checkbox'] {
 }
 
 #registration .img-fluid.entry {
-	width: 80%;
+	width: 45%;
 	display: block;
-	margin: 0.75rem auto;
+	float: left; 
+	margin: 0.5rem;
 }
 
 /***********************/
