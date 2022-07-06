@@ -49,10 +49,21 @@ p, span.programme {
 	margin-bottom: 0.5rem;
 }
 
+span.blue {
+	font: 400 2rem/2.5rem "Fredoka One", sans-serif;
+	color: #0095db;
+}
+
+span.dark-blue {
+	font: 400 2rem/2.5rem "Fredoka One", sans-serif;
+	color: #00468e;
+}
+
 h1 {
 	color: #333333;
 	/*font: italic 700 2.75rem/3.25rem "Sansita", sans-serif;*/
 	font: 400 2.25rem/2.75rem "Fredoka One", cursive;
+	/*font: 400 2.25rem/2.75rem "Tomarik Brush", sans-serif;*/
 }
 
 h2 {
@@ -862,6 +873,46 @@ input[type='checkbox'] {
 	background-size: 30%;
 }*/
 
+#activites .cards-1 {
+	width: 80%;
+	margin: 3rem auto;
+}
+
+#activites .cards-1 p {
+	margin-top: 1rem;
+}
+
+#activites .cards-1 p.right, span.right {
+	text-align: right;
+}
+
+#activites .cards-1 p.center, span.center {
+	text-align: center;
+}
+
+#activites .cards-1 p.left, span.left {
+	text-align: left;
+}
+
+#activites .card-body {
+	margin-top: 5rem;
+	width: 450px;
+}
+
+#activites p.top {
+	margin-top: 0;
+	padding: 0rem 0 0 15rem;
+}
+
+#activites p.special {
+	margin-top: 3rem;
+	margin-left: 20%;
+}
+
+#activites span.dark-blue {
+	padding-left: 5rem;
+}
+
 /**********************/
 /*     Highlights     */
 /**********************/
@@ -910,6 +961,10 @@ img.logo {
 	display: block;
  	margin: 0px auto;
 	/*width: 35%;*/
+}
+
+#programme {
+	margin-top: 2rem;
 }
 
 /******************/
@@ -1113,16 +1168,32 @@ h3 {
 	background-color: #b5bcc4;
 }
 
-/******************/
-/*     We     */
-/******************/
+/*************************/
+/*     Week-end     */
+/*************************/
+
+#week-end p.center {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 2rem;;
+}
+
+#week-end .img-fluid.entry {
+	width: 45%;
+	display: block;
+	float: left; 
+	margin: 1rem 0.5rem 0 3%;
+}
+
+/****************************/
+/*     We (programme)    */
+/****************************/
 
 #we {
 	background-image: url("../images/feuille-gauche.png");
 	background-repeat: no-repeat;
 	background-size: 25%;
 }
-
 
 /******************/
 /*     Footer     */
