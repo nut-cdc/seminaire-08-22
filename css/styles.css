@@ -207,8 +207,9 @@ a:hover {
 
 .blue {
 	color: #00468e;
-	font-weight: 600;
-	font-size: 1.125rem;
+	font-weight: 400;
+	font-weight: bold;
+	font-size: 1rem;
 }
 
 .cyan {
