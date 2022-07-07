@@ -65,6 +65,8 @@ span.dark-blue {
 span.esperluette {
 	font-size: 75%;
 	font-family: "Tomarik Brush", sans-serif;
+	position: relative;
+	bottom: 16px;
 }
 
 h1 {
