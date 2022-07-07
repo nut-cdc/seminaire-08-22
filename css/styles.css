@@ -40,9 +40,9 @@ html {
 	height: 100%;
 }
 
-body, p, span.programme {
+body, p, a, span.programme {
 	color: #555555; 
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+	/*font: 400 1rem/1.625rem "Open Sans", sans-serif;*/
 }
 
 p, span.programme {
@@ -50,49 +50,62 @@ p, span.programme {
 }
 
 span.blue {
-	font: 400 2rem/2.5rem "Fredoka One", sans-serif;
+	/*font: 400 2rem/2.5rem "Fredoka One", sans-serif;*/
+	font: 700 2rem/2.5rem "Century Gothic", sans-serif;
 	color: #0095db;
 }
 
 span.dark-blue {
-	font: 400 2rem/2.5rem "Fredoka One", sans-serif;
+	/*font: 400 2rem/2.5rem "Fredoka One", sans-serif;*/
+	font: 700 2rem/2.5rem "Century Gothic", sans-serif;
 	color: #00468e;
+}
+
+span.esperluette {
+	font-size: 75%;
+	font-family: "Tomarik Brush", sans-serif;
 }
 
 h1 {
 	color: #333333;
 	/*font: italic 700 2.75rem/3.25rem "Sansita", sans-serif;*/
-	font: 400 2.25rem/2.75rem "Fredoka One", cursive;
-	/*font: 400 2.25rem/2.75rem "Tomarik Brush", sans-serif;*/
+	/*font: 400 2.25rem/2.75rem "Fredoka One", cursive;*/
+	font: 400 2.25rem/2.75rem "Tomarik Display Line", sans-serif;
 }
 
 h2 {
 	color: #333333;
 	/*font: italic 700 2.25rem/2.75rem "Sansita", sans-serif;*/
-	font: 400 2rem/2.5rem "Fredoka One", sans-serif;
+	/*font: 400 2rem/2.5rem "Fredoka One", sans-serif;*/
+	font: 400 2.5rem/2.5rem "Tomarik Display Line", sans-serif;
 }
 
 h3 {
 	color: #333333;
 	/*font: italic 700 1.875rem/2.25rem "Sansita", sans-serif;*/
-	font: 400 1.75rem/1.5rem "Fredoka One", sans-serif;
+	/*font: 400 1.75rem/1.5rem "Fredoka One", sans-serif;*/
+	font: 400 1.75rem/1.5rem "Tomarik Display", sans-serif;
 }
 
 h4 {
 	color: #333333;
 	/*font: italic 700 1.625rem/2rem "Sansita", sans-serif;*/
-	font: 400 1.25rem/1.25rem "Fredoka One", sans-serif;
+	/*font: 400 1.25rem/1.25rem "Fredoka One", sans-serif;*/
+	font: 400 1.25rem/1.25rem "Tomarik Display", sans-serif;
+	margin: 2rem auto 1.5rem auto;
 }
 
 h5 {
 	color: #333333;
 	/*font: italic 700 1.375rem/1.625rem "Sansita", sans-serif;*/
-	font: 400 1rem/1.5rem "Fredoka One", sans-serif;
+	/*font: 400 1rem/1.5rem "Fredoka One", sans-serif;*/
+	font: 400 1rem/1.5rem "Tomarik Display", sans-serif;
 }
 
 h6 {
 	color: #333333;
-	font: italic 700 1.125rem/1.375rem "Sansita", sans-serif;
+	/*font: italic 700 1.125rem/1.375rem "Sansita", sans-serif;*/
+	font: 700 1.125rem/1.375rem "Tomarik Display", sans-serif;
 }
 
 .p-large {
@@ -193,7 +206,7 @@ a:hover {
 
 .blue {
 	color: #00468e;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 1.125rem;
 }
 
@@ -233,7 +246,7 @@ a:hover {
 	text-decoration: none;
 }
 
-.btn-solid-lg {
+.btn-solid-lg, .cards-1 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.625rem 2.75rem 1.625rem 2.75rem;
 	border: 1px solid #00468e;
@@ -241,7 +254,7 @@ a:hover {
 	background-color: #00468e;
 	color: #ffffff;
 	font-weight: 600;
-	font-size: 0.875rem;
+	font-size: 01rem;
 	line-height: 0;
 	text-decoration: none;
 	transition: all 0.2s;
@@ -281,7 +294,7 @@ a:hover {
 	background-color: transparent;
 	color: #333333;
 	font-weight: 600;
-	font-size: 0.875rem;
+	font-size: 1rem;
 	line-height: 0;
 	text-decoration: none;
 	transition: all 0.2s;
@@ -750,6 +763,7 @@ input[type='checkbox'] {
 .header .btn-outline-lg {
 	border-color: #ffffff;
 	color: #ffffff;
+	font-size: medium;
 }
 
 .header .btn-outline-lg:hover {
@@ -778,7 +792,7 @@ input[type='checkbox'] {
 }
 
 .form-1 h2 {
-	margin-bottom: 1.25rem;
+	margin-bottom: 2rem;
 }
 
 .form-1 .list-unstyled .fas {
@@ -801,9 +815,10 @@ input[type='checkbox'] {
 }
 
 #registration {
-	background-image: url("../images/feuille-droite.png");
+	/*background-image: url("../images/feuille-droite.png");*/
+	background-image: url("../images/olivier-1.png");
 	background-repeat: no-repeat;
-	background-size: 30%;
+	background-size: /*30%*/12%;
 	background-position-x: right;
 }
 
@@ -867,11 +882,11 @@ input[type='checkbox'] {
 /*     Activités     */
 /**********************/
 
-/*#activites {
-	background-image: url("../images/feuille-gauche.png");
+#activites {
+	background-image: url("../images/olivier-3.png");
 	background-repeat: no-repeat;
-	background-size: 30%;
-}*/
+	background-size: 20%;
+}
 
 #activites .cards-1 {
 	width: 80%;
@@ -1033,12 +1048,29 @@ img.logo {
 	padding-bottom: 0;
 }
 
+.cell {
+	height: 110px;
+	display : flex;
+ 	align-items: center;
+	flex-direction: column;
+}
+
+.cell-element {
+	padding-top: 0.75rem;
+	flex-grow: 0;
+}
+
+.cell-element:nth-of-type(2) {
+	position: relative;
+	bottom: 0.5rem;
+}
+
 /********************/
 /*     Speakers     */
 /********************/
 .cards-2 {
-	padding-top: 7.75rem;
-	padding-bottom: 10rem;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 	text-align: center;
 }
 
@@ -1048,19 +1080,18 @@ img.logo {
 }
 
 .cards-2 .h2-heading {
-	margin-bottom: 0.75rem;
 	text-align: center;
 }
 
 .cards-2 .p-heading {
-	margin-bottom: 3.5rem;
+	margin-bottom: 2.5rem;
 	text-align: center;
 }
 
 .cards-2 .card {
 	max-width: 340px;
 	margin-right: auto;
-	margin-bottom: 5rem;
+	margin-bottom: 2.5rem;
 	margin-left: auto;
 	border: none;
 	background: transparent;
@@ -1190,9 +1221,9 @@ h3 {
 /****************************/
 
 #we {
-	background-image: url("../images/feuille-gauche.png");
+	background-image: url("../images/olivier-4.png");
 	background-repeat: no-repeat;
-	background-size: 25%;
+	background-size: 23%;
 }
 
 /******************/
@@ -1522,16 +1553,16 @@ a:hover.back-to-top {
 	
 	.basic-1 .keynote-details {
 		display: inline-block;
-		width: 80%;
+		/*width: 80%;*/
 	}
 	
 
-	.basic-1 .keynote-time {
+	/*.basic-1 .keynote-time {
 		display: inline-block;
 		width: 19%;
 		text-align: right;
 		vertical-align: top;
-	}
+	}*/
 	
 	.basic-1 .keynote-divider {
 		margin: 2.125rem auto 3rem auto;
@@ -1664,9 +1695,9 @@ a:hover.back-to-top {
 		margin-left: 1.5rem;
 	}
 
-	.basic-1 .keynote-details {
+	/*.basic-1 .keynote-details {
 		width: 85%;
-	}
+	}*/
 	
 	.basic-1 .keynote-time {
 		width: 14%;
