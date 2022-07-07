@@ -69,6 +69,10 @@ span.esperluette {
 	bottom: 16px;
 }
 
+span.esperluette:nth-of-type(2n) {
+	padding-bottom: 0;
+}
+
 h1 {
 	color: #333333;
 	/*font: italic 700 2.75rem/3.25rem "Sansita", sans-serif;*/
